@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/checklist.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>To-do list</title>
+</head>
+<body>
+    
+    <div class="container">
+        <form action="" onsubmit="filterData();reset();return false" >
+            <input type="text" id="input" placeholder="Adicione uma nova tarefa">
+            <button type="submit">Add</button>
+        </form>
+        <ul id="todo"></ul>
+        <ul id="done"></ul>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
